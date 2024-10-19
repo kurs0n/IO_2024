@@ -38,7 +38,12 @@ graph TD;
     API-->blad[Zwraca błąd];
     API-->plik[Zwraca skonwertowany plik];
     plik-->Użytkownik;
-
-
-
 ```
+
+### Diagram Sekwencyjny UML
+ 
+### Projekt Architektury opracowanego systemu
+
+### Sugerowane języki implementacji
+
+Uzasadnienie: ...
