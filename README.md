@@ -18,7 +18,7 @@
 
 **Czy wszystkie wymagania klienta są możliwe do spełnienia? TAK**
 
-### Interfejs
+### Interfejs*
 
 ![interfejs](https://raw.githubusercontent.com/kurs0n/IO_2024/refs/heads/main/pictures/design.jpg)
 
