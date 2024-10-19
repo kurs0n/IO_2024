@@ -2,8 +2,7 @@
 
 ## Członkowie zespołu
 
-zdjecie lol
-
+![kompetenecje](https://raw.githubusercontent.com/kurs0n/IO_2024/refs/heads/main/pictures/tabela.png)
 
 ### Zestaw pytań
 
@@ -19,9 +18,9 @@ zdjecie lol
 
 **Czy wszystkie wymagania klienta są możliwe do spełnienia? TAK**
 
-*zdjęcie**
+### Interfejs
 
-zdjecie interfejsu
+![interfejs](https://raw.githubusercontent.com/kurs0n/IO_2024/refs/heads/main/pictures/design.png)
 
 ### Format Danych wejściowych
 | Plik      | format wejściowy/wyjściowy | Control-warunek                  | Report|
@@ -38,8 +37,7 @@ graph TD;
     Konwerter--wysyla zapytanie-->API;
     API-->blad[Zwraca błąd];
     API-->plik[Zwraca skonwertowany plik];
-    plik-->Konwerter;
-    Konwerter-->interfejs[pobiera plik]
+    plik-->Użytkownik;
 
 
 
