@@ -20,7 +20,7 @@
 
 ### Interfejs
 
-![interfejs](https://raw.githubusercontent.com/kurs0n/IO_2024/refs/heads/main/pictures/design.png)
+![interfejs](https://raw.githubusercontent.com/kurs0n/IO_2024/refs/heads/main/pictures/design.jpg)
 
 ### Format Danych wejściowych
 | Plik      | format wejściowy/wyjściowy | Control-warunek                  | Report|
