@@ -41,9 +41,37 @@ graph TD;
 ```
 
 ### Diagram Sekwencyjny UML
- 
-### Projekt Architektury opracowanego systemu
+```mermaid
+sequenceDiagram
+    participant User as Użytkownik
+    participant UI as Interfejs graficzny
+    participant API as API
+    participant Converter as Moduł Konwersji
+    participant File as Plik wyjściowy
 
+    User->>UI: Wgrywa plik i wybiera format
+    UI->>API: Wysyła żądanie konwersji pliku
+    API->>Converter: Przekazuje plik do konwersji
+    Converter-->>API: Zwraca skonwertowany plik
+    API-->>UI: Przekazuje skonwertowany plik
+    UI-->>User: Umożliwia pobranie pliku
+ ```
+### Projekt Architektury opracowanego systemu
+```mermaid
+ graph TD;
+subgraph Koniec - Wyjście
+        Skonwertowany_Plik[Skonwertowany plik] --> Raport[Generowanie raportu]
+    end
+    
+
+    subgraph Przetwarzanie
+        Walidacja[Walidacja pliku] --> Konwersja[Przetwarzanie przez moduł konwersji]
+    end
+
+    subgraph Start - Wejście
+        Wgrywanie_Pliku[Wgrywanie pliku] --> Wybór_Formatu[Wybór formatu docelowego]
+    end
+```
 ### Sugerowane języki implementacji
 
 Uzasadnienie: ...
