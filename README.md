@@ -73,5 +73,6 @@ subgraph Koniec - Wyjście
     end
 ```
 ### Sugerowane języki implementacji
+Python, JavaScript
 
-Uzasadnienie: ...
+Uzasadnienie: Python został wybrany do backendu ze względu na swoją prostotę oraz łatwość tworzenia skalowalnych API. JavaScript z frameworkami jak React.js jest idealny do tworzenia dynamicznych, interaktywnych interfejsów użytkownika w aplikacji typu SPA. Te języki zapewniają wydajność oraz łatwą integrację.
