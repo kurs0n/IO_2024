@@ -27,7 +27,7 @@
 | ------------- |-|:-------------------:| -----|
 |plik dźwiękowy|MP3, WAV, FLAC| Plik musi ważyć conajwyżej 200MB | Plik sformatowany
 |plik wideo|MP4, MOV| Plik musi ważyć conajwyżej 200MB | Plik sformatowany
-|plik graficzny|MP3, WAV, FLAC| Plik musi ważyć conajwyżej 200MB | Plik sformatowany
+|plik graficzny|JPG, PNG, GIF| Plik musi ważyć conajwyżej 200MB | Plik sformatowany
 
 ### System
 
