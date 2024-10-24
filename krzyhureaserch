@@ -1,0 +1,14 @@
+1. sudo apt-get zainstaluj ffmpeg
+2. sudo apt-get install -y python-pydub
+3. 
+# import required modules 
+from os import path 
+from pydub import AudioSegment 
+  
+# assign files 
+input_file = "hello.mp3" //tutaj jakis kodzik ze trzeba wybrac np. z pulpitu jako przycisk zaimplementowac
+output_file = "result.wav" // tutaj kodzik ze przykladowanazw.mp3 zamienia sie na przykladowanazwa.wav (chodzi o to ze nie trzeba wpisywac nazwy nowego pliku)
+  
+# konwersja mp3 na wav (pewnie zeby wav na mp3 to odwrotnie trzeba dac w kodzie)
+sound = AudioSegment.from_mp3(input_file) 
+sound.export(output_file, format="wav")
