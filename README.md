@@ -2,7 +2,7 @@
 
 ## Członkowie zespołu
 
-![kompetenecje](https://raw.githubusercontent.com/kurs0n/IO_2024/refs/heads/main/pictures/tabela.png)
+![kompetenecje](https://raw.githubusercontent.com/kurs0n/IO_2024/refs/heads/main/pictures/zdjecie.png)
 
 ### Zestaw pytań
 
