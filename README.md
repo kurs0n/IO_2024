@@ -29,7 +29,7 @@
 |plik wideo|MP4, MOV| Plik musi ważyć conajwyżej 200MB | Plik sformatowany
 |plik graficzny|JPG, PNG, GIF| Plik musi ważyć conajwyżej 200MB | Plik sformatowany
 
-### System
+### Schemat przykładu użycia
 
 ```mermaid
 graph TD;
