@@ -6,6 +6,8 @@ from fastapi.responses import FileResponse
 
 from convert_movie import convert_to_mov, convert_to_mp4
 
+from pydub import AudioSegment 
+
 app = FastAPI()
 
 @app.post("/movie/mov")
@@ -33,3 +35,11 @@ def movie_mp4(file: UploadFile):
         return FileResponse(file_path)
     except Exception as e:
         return {"message": e.args}
+    
+    
+@app.post("/audio/wav")
+def audio_wav(file: UploadFile):
+    sound = AudioSegment.from_mp3(file)
+    file_path=f"./sound/{file.filename.split(".")[0]}.wav"
+    sound.export(file_path,format="wav")
+    return FileResponse(file_path)
