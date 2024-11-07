@@ -1,16 +1,24 @@
 import React, { useState } from "react";
 import "./App.css";
 import axios from "axios"
-const postFile = async () => {
-  let response
+const postFile = async ({file}) => {
+	let response
+	
+	const form = new FormData()
+	form.append('file', file)
+	console.log(form)
   try {
-    response = await axios.post()
+    response = await axios.post("localhost:8080/movie/mov", form, {headers:
+		{
+			"Content-Type": "multipart/form-data"
+		}
+	})
   }
   catch (error){
     response = error.response;
     console.log(response);
   }
-  return response.data
+  return response
 }
 
 function App() {
@@ -41,26 +49,28 @@ function App() {
       setError("Niepoprawne konwertowanie")
       return
     }
+		
+		const response = postFile({file:file})
 	};
 	const handleFileChange = e => {
 		const selectedFile = e.target.files[0];
 		if (selectedFile) {
 			setFile(selectedFile);
 			setError(null);
-     
+			
 		}
 	};
 
 	return (
 		<div className="App">
-			<h1>File converter</h1>
+			<h1 className="header">File converter</h1>
 			{/* <ImageConverter /> */}
-			<div>
-				<div>
-					<div>
+			<div className="mainbox">
+				<div className="content">
+					<div className="button">
 						<button onClick={() => setDisplayTypes(true)}>{buttonType}</button>
 					</div>
-					<ul style={{ display: displayTypes ? "block" : "none" }}>
+					<ul className="dropdown" style={{ display: displayTypes ? "block" : "none" }}>
 						{fileType.map(item => (
 							<li key={item.name}>
 								<button
