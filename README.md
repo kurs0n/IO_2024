@@ -2,7 +2,7 @@
 
 ## Członkowie zespołu
 
-![kompetenecje](https://raw.githubusercontent.com/kurs0n/IO_2024/refs/heads/main/pictures/tabela.png)
+![kompetenecje](https://raw.githubusercontent.com/kurs0n/IO_2024/refs/heads/main/pictures/zdjecie.png)
 
 ### Zestaw pytań
 
@@ -27,9 +27,9 @@
 | ------------- |-|:-------------------:| -----|
 |plik dźwiękowy|MP3, WAV, FLAC| Plik musi ważyć conajwyżej 200MB | Plik sformatowany
 |plik wideo|MP4, MOV| Plik musi ważyć conajwyżej 200MB | Plik sformatowany
-|plik graficzny|MP3, WAV, FLAC| Plik musi ważyć conajwyżej 200MB | Plik sformatowany
+|plik graficzny|JPG, PNG, GIF| Plik musi ważyć conajwyżej 200MB | Plik sformatowany
 
-### System
+### Schemat przykładu użycia
 
 ```mermaid
 graph TD;
