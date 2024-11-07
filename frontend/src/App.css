@@ -1,1 +1,36 @@
+<<<<<<< HEAD
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
 
+h1 {
+  margin-bottom: 20px;
+}
+
+input[type="file"] {
+  margin-bottom: 20px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+=======
+
+>>>>>>> 1df0ff486473709c2ac077c455a0cb6dc524ec1c
